@@ -13,7 +13,7 @@ function createCourse(): { name: string; price: number } {
 }
 
 //! bad behaviour of typescript objects
-createUser({ name: "mashood", isPaid: true, email: "abc@com" }); //? error
+// createUser({ name: "mashood", isPaid: true, email: "abc@com" }); //? error
 
 let newUser = { name: "mashood", isPaid: true, email: "abc@com" };
 
