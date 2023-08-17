@@ -54,3 +54,5 @@ type animal = {
 type dog = animal & {
   age: number;
 };
+
+export {};
